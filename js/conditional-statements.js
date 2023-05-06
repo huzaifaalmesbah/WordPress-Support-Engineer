@@ -1,10 +1,6 @@
 var now = new Date();
 var month = now.getMonth();
 var time = now.getHours();
-
-var nowTime = now.getHours() + ":" + now.getMinutes();
-console.log("Now Time: " + nowTime);
-
 // If else with ==
 if (month == 3) {
   console.log("Thanks, This Righ Month ");
@@ -27,7 +23,7 @@ if (time < 17) {
 if (time < 23) {
   console.log("Hello, Good Night");
 } else {
-  console.log("I can't Show Now");
+  console.log("I can't Now");
 }
 
 //  Next
