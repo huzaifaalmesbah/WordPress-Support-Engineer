@@ -1,13 +1,13 @@
 var now = new Date();
 var month = now.getMonth();
 var time = now.getHours();
-
+// If else with ==
 if (month == 3) {
   console.log("Thanks, This Righ Month ");
 } else {
   console.log("Sorry, This Worng");
 }
-
+// if else check with < and time
 if (time < 5) {
   console.log("Hello, Good Night");
 }
