@@ -1,6 +1,5 @@
 var now = new Date();
 var day = now.getDay();
-var time = now.getHours();
 
 // Day Name Show Using switch
 
@@ -39,6 +38,8 @@ var s = now.getSeconds();
 console.log("Time:" + h + ":" + m + ":" + s);
 
 // Greeting
+var time = now.getHours();
+
 let greeting;
 switch (true) {
   case time < 12:
